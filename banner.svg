@@ -1,0 +1,110 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2027"/>
+      <stop offset="40%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#0a192f"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00c8ff"/>
+      <stop offset="100%" style="stop-color:#00ff88"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00c8ff;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#00ff88;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#00c8ff;stop-opacity:0.03"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="clip">
+      <rect width="900" height="200" rx="12"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <!-- Background -->
+    <rect width="900" height="200" fill="url(#bg)"/>
+
+    <!-- Grid lines -->
+    <g stroke="#00c8ff" stroke-opacity="0.04" stroke-width="1">
+      <line x1="0" y1="40" x2="900" y2="40"/>
+      <line x1="0" y1="80" x2="900" y2="80"/>
+      <line x1="0" y1="120" x2="900" y2="120"/>
+      <line x1="0" y1="160" x2="900" y2="160"/>
+      <line x1="100" y1="0" x2="100" y2="200"/>
+      <line x1="200" y1="0" x2="200" y2="200"/>
+      <line x1="300" y1="0" x2="300" y2="200"/>
+      <line x1="400" y1="0" x2="400" y2="200"/>
+      <line x1="500" y1="0" x2="500" y2="200"/>
+      <line x1="600" y1="0" x2="600" y2="200"/>
+      <line x1="700" y1="0" x2="700" y2="200"/>
+      <line x1="800" y1="0" x2="800" y2="200"/>
+    </g>
+
+    <!-- Glow orb left -->
+    <ellipse cx="80" cy="100" rx="140" ry="90" fill="#00c8ff" fill-opacity="0.05"/>
+    <!-- Glow orb right -->
+    <ellipse cx="820" cy="60" rx="100" ry="70" fill="#00ff88" fill-opacity="0.04"/>
+
+    <!-- Wave shapes -->
+    <path d="M0 140 Q 150 110 300 135 Q 450 160 600 130 Q 750 100 900 125 L900 200 L0 200 Z" fill="url(#wave1)"/>
+    <path d="M0 160 Q 200 140 400 155 Q 600 170 900 150 L900 200 L0 200 Z" fill="url(#wave2)"/>
+
+    <!-- Left bracket accent -->
+    <rect x="36" y="60" width="3" height="80" rx="1.5" fill="url(#accent)" opacity="0.8"/>
+    <rect x="36" y="60" width="16" height="3" rx="1.5" fill="url(#accent)" opacity="0.8"/>
+    <rect x="36" y="137" width="16" height="3" rx="1.5" fill="url(#accent)" opacity="0.8"/>
+
+    <!-- Main name -->
+    <text x="72" y="98" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="700" fill="#ffffff" filter="url(#glow)">Rayyan Mudassar</text>
+
+    <!-- Gradient underline -->
+    <rect x="72" y="106" width="340" height="2.5" rx="1.25" fill="url(#accent)" opacity="0.9"/>
+
+    <!-- Subtitle -->
+    <text x="74" y="134" font-family="'Courier New', Courier, monospace" font-size="15" fill="#00c8ff" opacity="0.9">Cloud &amp; DevOps Engineer  |  Cloud Security</text>
+
+    <!-- Tags row -->
+    <!-- AWS tag -->
+    <rect x="72" y="150" width="48" height="22" rx="5" fill="#ff990022" stroke="#ff9900" stroke-width="0.8"/>
+    <text x="96" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#ff9900" text-anchor="middle">AWS</text>
+
+    <!-- Azure tag -->
+    <rect x="126" y="150" width="52" height="22" rx="5" fill="#0078d422" stroke="#0078d4" stroke-width="0.8"/>
+    <text x="152" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#0078d4" text-anchor="middle">Azure</text>
+
+    <!-- Terraform tag -->
+    <rect x="184" y="150" width="72" height="22" rx="5" fill="#7b42bc22" stroke="#7b42bc" stroke-width="0.8"/>
+    <text x="220" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#a855f7" text-anchor="middle">Terraform</text>
+
+    <!-- Docker tag -->
+    <rect x="262" y="150" width="58" height="22" rx="5" fill="#2496ed22" stroke="#2496ed" stroke-width="0.8"/>
+    <text x="291" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#2496ed" text-anchor="middle">Docker</text>
+
+    <!-- ISC2 CC tag -->
+    <rect x="326" y="150" width="66" height="22" rx="5" fill="#00e67622" stroke="#00e676" stroke-width="0.8"/>
+    <text x="359" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#00e676" text-anchor="middle">ISC2 CC ✓</text>
+
+    <!-- Right side: location pill -->
+    <rect x="680" y="80" width="190" height="30" rx="15" fill="#ffffff08" stroke="#00c8ff" stroke-width="0.6"/>
+    <text x="775" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8dd3e8" text-anchor="middle">📍 Lahore, Pakistan</text>
+
+    <!-- Right side: open to work pill -->
+    <rect x="680" y="120" width="190" height="30" rx="15" fill="#00e67610" stroke="#00e676" stroke-width="0.6"/>
+    <text x="775" y="140" font-family="Arial, sans-serif" font-size="12" fill="#00e676" text-anchor="middle">🟢 Open to Remote Work</text>
+
+    <!-- Corner dots -->
+    <circle cx="20" cy="20" r="3" fill="#00c8ff" opacity="0.4"/>
+    <circle cx="880" cy="20" r="3" fill="#00ff88" opacity="0.4"/>
+    <circle cx="20" cy="180" r="3" fill="#00ff88" opacity="0.4"/>
+    <circle cx="880" cy="180" r="3" fill="#00c8ff" opacity="0.4"/>
+  </g>
+</svg>
