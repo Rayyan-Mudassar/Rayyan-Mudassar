@@ -92,11 +92,11 @@ $ cat about.txt
 
 | # | Project | Stack | Highlights |
 |---|---------|-------|------------|
-| 🔐 | **[AWS Security Auditor CLI](https://github.com/Rayyan-Mudassar/Cloud-Labs-portifolio)** | Python · boto3 · AWS | Audits S3, IAM, Security Groups & CloudTrail misconfigs with before/after outputs |
-| ⚙️ | **[Terraform + GitHub Actions CI/CD](https://github.com/Rayyan-Mudassar/Cloud-Labs-portifolio)** | Terraform · GH Actions · AWS | Automated infra provisioning with full plan/apply pipeline |
-| 🐳 | **[Dockerized Flask + Postgres API](https://github.com/Rayyan-Mudassar/Cloud-Labs-portifolio)** | Docker · Flask · Postgres | Multi-stage builds, named volumes, non-root hardening, race condition fixed |
-| ⚡ | **[Serverless Notes API](https://github.com/Rayyan-Mudassar/Cloud-Labs-portifolio)** | Lambda · DynamoDB · API GW | Fully serverless CRUD backend, debugged HTTP vs REST API event structures |
-| 🌐 | **[S3 + CloudFront Static Site](https://github.com/Rayyan-Mudassar/Cloud-Labs-portifolio)** | S3 · CloudFront · OAC | HTTPS enforcement, OAC config, debugged 403 endpoint issue |
+| 🔐 | **[AWS Security Auditor CLI](https://github.com/Rayyan-Mudassar/AWS-Security-Audit)** | Python · boto3 · AWS | Audits S3, IAM, Security Groups & CloudTrail misconfigs with before/after outputs |
+| ⚙️ | **[Terraform + GitHub Actions CI/CD](https://github.com/Rayyan-Mudassar/Terraform_project)** | Terraform · GH Actions · AWS | Automated infra provisioning with full plan/apply pipeline |
+| 🐳 | **[Dockerized Flask + Postgres API](https://github.com/Rayyan-Mudassar/Docker-Kubernetes-Labs)** | Docker · Flask · Postgres | Multi-stage builds, named volumes, non-root hardening, race condition fixed |
+| ⚡ | **[Serverless Notes API](https://github.com/Rayyan-Mudassar/AWS-Serverless-NotesApp)** | Lambda · DynamoDB · API GW | Fully serverless CRUD backend, debugged HTTP vs REST API event structures |
+| 🌐 | **[Nodejs App with ECS + CI/CD](https://github.com/Rayyan-Mudassar/Nodejs-Docker-DevOps)** | S3 · CloudFront · OAC | HTTPS enforcement, OAC config, debugged 403 endpoint issue |
 
 ---
 
@@ -118,7 +118,7 @@ $ cat about.txt
 ```yaml
 current_focus:
   - 📚 AWS Solutions Architect Associate (SAA-C03)
-  - ☸️  Kubernetes + EKS Capstone Project
+  - ☸️  Kubernetes + Docker Advanced
   - 🔒 Cloud Security Engineering path
   - 🤖 AI Automation on AWS Bedrock (upcoming)
 
