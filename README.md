@@ -96,7 +96,7 @@ $ cat about.txt
 | ⚙️ | **[Terraform + GitHub Actions CI/CD](https://github.com/Rayyan-Mudassar/Terraform_project)** | Terraform · GH Actions · AWS | Automated infra provisioning with full plan/apply pipeline |
 | 🐳 | **[Dockerized Flask + Postgres API](https://github.com/Rayyan-Mudassar/Docker-Kubernetes-Labs)** | Docker · Flask · Postgres | Multi-stage builds, named volumes, non-root hardening, race condition fixed |
 | ⚡ | **[Serverless Notes API](https://github.com/Rayyan-Mudassar/AWS-Serverless-NotesApp)** | Lambda · DynamoDB · API GW | Fully serverless CRUD backend, debugged HTTP vs REST API event structures |
-| 🌐 | **[Nodejs App with ECS + CI/CD](https://github.com/Rayyan-Mudassar/Nodejs-Docker-DevOps)** | S3 · CloudFront · OAC | HTTPS enforcement, OAC config, debugged 403 endpoint issue |
+| 🌐 | **[Nodejs App with ECS + CI/CD](https://github.com/Rayyan-Mudassar/Nodejs-Docker-DevOps)** | Docker · CI/CD · ECS | Automated Deployment to ECS, ECR to push images, debugged postgres SSL encyption |
 
 ---
 
