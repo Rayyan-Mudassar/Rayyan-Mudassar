@@ -89,10 +89,6 @@
     <rect x="262" y="150" width="58" height="22" rx="5" fill="#2496ed22" stroke="#2496ed" stroke-width="0.8"/>
     <text x="291" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#2496ed" text-anchor="middle">Docker</text>
 
-    <!-- ISC2 CC tag -->
-    <rect x="326" y="150" width="66" height="22" rx="5" fill="#00e67622" stroke="#00e676" stroke-width="0.8"/>
-    <text x="359" y="165" font-family="Arial, sans-serif" font-size="11" font-weight="600" fill="#00e676" text-anchor="middle">ISC2 CC ✓</text>
-
     <!-- Right side: location pill -->
     <rect x="680" y="80" width="190" height="30" rx="15" fill="#ffffff08" stroke="#00c8ff" stroke-width="0.6"/>
     <text x="775" y="100" font-family="Arial, sans-serif" font-size="12" fill="#8dd3e8" text-anchor="middle">📍 Lahore, Pakistan</text>
