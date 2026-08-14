@@ -1,9 +1,6 @@
 <div align="center">
 
-# Rayyan Mudassar
-### Cloud & DevOps Engineer | Cloud Security Enthusiast
-
-📍 Lahore, Pakistan &nbsp;|&nbsp; 🟢 Open to Remote Work &nbsp;|&nbsp; 🌍 Open to Visa Sponsorship
+<img src="banner.svg" alt="Rayyan Mudassar banner" width="100%"/>
 
 [![AWS SAA-C03](https://img.shields.io/badge/AWS-Solutions%20Architect%20Associate-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://www.credly.com/badges/df10ed9a-6c85-466b-9387-1de065bb9546/public_url)
 [![ISC2 CC](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-00A4E4?style=for-the-badge&logo=isc2&logoColor=white)](Passed)
