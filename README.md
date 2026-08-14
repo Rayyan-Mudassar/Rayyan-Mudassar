@@ -45,7 +45,7 @@ $ cat about.txt
 <p>
   <img src="https://img.shields.io/badge/ISC2-CC%20Passed-7c3aed?style=for-the-badge&logo=isc2&logoColor=white"/>
   <img src="https://img.shields.io/badge/Microsoft-AZ--104%20Passed-0078d4?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-SAA--C03%20In%20Progress-ff9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-SAA--C03%20Certified-ff9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
 </p>
 
 ---
